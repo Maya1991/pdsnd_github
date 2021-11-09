@@ -18,6 +18,8 @@ wash = read.csv("washington.csv", header=T, na.strings=c("","NA"))
 # chicago
 chi = read.csv("chicago.csv", header=T, na.strings=c("","NA"))
 
+
+# old way of reading data (without processing NA)
 #ny = read.csv('new_york_city.csv')
 #wash = read.csv('washington.csv')
 #chi = read.csv('chicago.csv')
