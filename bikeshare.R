@@ -2,8 +2,14 @@
 getwd()
 
 # loading data and converting the blanks into NA in order to remove them later (used for all the questions).
+
+# new york city
 ny <- read.csv("new_york_city.csv", header=T, na.strings=c("","NA"))
+
+# washington
 wash = read.csv("washington.csv", header=T, na.strings=c("","NA"))
+
+# chicago
 chi = read.csv("chicago.csv", header=T, na.strings=c("","NA"))
 
 #ny = read.csv('new_york_city.csv')
