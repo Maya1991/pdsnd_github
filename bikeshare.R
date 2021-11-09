@@ -68,7 +68,7 @@ ggarrange( box_ny, box_chi, box_wash,
 #dname, dataset's name of the current city
 histogram_creator  = function(dataset, dname)
 {
-  dataset = na.omit(dataset)
+  dataset = na.omit(dataset) # omit na before plotting
   
   #concatenation of dname with the title
   title = paste('Histogram of Number of User Type per gender in', dname, sep = ' ')
