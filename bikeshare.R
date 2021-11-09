@@ -1,3 +1,4 @@
+# AUTHOR : Maya EDDOUD
 # checking directory
 getwd()
 
