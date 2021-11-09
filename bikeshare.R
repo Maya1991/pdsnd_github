@@ -1,3 +1,9 @@
+# Questions summury
+# QUESTION 1: Show the statistical summary (quartiles, median and outliers) of the trip duration per user type in each city. 
+# QUESTION 2: Show type of users per gender in New-York and Chicago.
+# QUESTION 3: Show the average trip duration according to the birth year. 
+
+
 # checking directory
 getwd()
 
