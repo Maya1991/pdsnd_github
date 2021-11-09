@@ -94,7 +94,7 @@ ggarrange(histo_ny, histo_chi,
 #       QUESTION 3: Show the average trip duration according to the birth year. 
 ##########################
 
-#Plot of New-York
+#Plot of New-York using ggplot
 
 age_ny = ggplot(aes(x=Birth.Year, y=Trip.Duration), data= subset(ny, !is.na(Birth.Year))) +
   coord_trans(y='sqrt') +
@@ -102,7 +102,7 @@ age_ny = ggplot(aes(x=Birth.Year, y=Trip.Duration), data= subset(ny, !is.na(Birt
   labs(x = "Users year of birth", y = "Average of trip duration") + 
   ylim(100,2000)
 
-#Plot of Chicago
+#Plot of Chicago using ggplot
 
 age_chi = ggplot(aes(x=Birth.Year, y=Trip.Duration), data= subset(chi, !is.na(Birth.Year))) +
   coord_trans(y='sqrt') +
@@ -110,7 +110,7 @@ age_chi = ggplot(aes(x=Birth.Year, y=Trip.Duration), data= subset(chi, !is.na(Bi
   labs(x = "Users year of birth", y = "Average of trip duration") + 
   ylim(100,2000)
 
-#combining the 2 graphs in one page
+#combining the 2 graphs in one page using ggarrange
 ggarrange(age_ny, age_chi, 
           labels = c("Average trip duration per age in New-York", "Average trip duration per age in Chicago"),
           ncol = 2, nrow = 1)
