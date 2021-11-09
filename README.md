@@ -4,7 +4,7 @@
 9 November 2021
 
 ### Project Title
-Replace the Project Title
+Bikeshare project for R programming course
 
 ### Description
 Describe what your project is about and what it does
