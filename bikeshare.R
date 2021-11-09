@@ -29,6 +29,7 @@ head(wash)
 summary(ny)
 
 # load libraries
+# before that, these two libraries have to be installed !
 library(ggplot2) #for the plots
 library(ggpubr) #to adjust multiple plots in one page
 
